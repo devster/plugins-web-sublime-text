@@ -7,10 +7,22 @@ Sublime-Text can be call ST in the document below.
 
 ## Configure Sublime-Text
 
+Each of these configurations below can be done either in `Preferences > Settings - User` or `Preferences > Settings - Default` depending on how you use ST.
+
+### Set standard tabulations
+
+```
+// The number of spaces a tab is considered equal to
+"tab_size": 4,
+
+// Set to true to insert spaces when tab is pressed
+"translate_tabs_to_spaces": true,
+```
+
 ### Remove trailing white-space
 
 ST can remove trailing white space on save.
-To enable it simply open Sublime `Preferences > Settings – User` or `Preferences > Settings - Default` and change `trim_trailing_white_space_on_save` to `true`
+Simply set `trim_trailing_white_space_on_save` to `true`
 
 > "DEATH TO ALL WHITESPACE" - *An angry man*
 
