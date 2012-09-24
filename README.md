@@ -22,9 +22,24 @@ Each of these configurations below can be done either in `Preferences > Settings
 ### Remove trailing white-space
 
 ST can remove trailing white space on save.
-Simply set `trim_trailing_white_space_on_save` to `true`
+
+```
+"trim_trailing_white_space_on_save": true,
+```
 
 > "DEATH TO ALL WHITESPACE" - *An angry man*
+
+### Unix line ending
+
+```
+"default_line_ending": "LF",
+```
+
+### Encoding
+
+```
+"default_encoding": "UTF-8",
+```
 
 ## How to install packages
 
