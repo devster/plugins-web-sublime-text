@@ -28,6 +28,26 @@ Simply set `trim_trailing_white_space_on_save` to `true`
 
 ## How to install packages
 
+There are two ways to install ST plugins:
+
+### Classic install
+
+Download a plugins and copy it in `Preferences > Browse Packages ...` directory
+
+### Install with package control (the best way)
+
+Install the *wbond Sublime Package Control* plugin that provide a full-featured package manager that helps discovering, installing, updating and removing packages for Sublime Text 2. It features an automatic upgrader and supports GitHub, BitBucket and a full channel/repository system.
+
+* Install the package control by coping these line into the console (View > Show console):
+```
+import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print 'Please restart Sublime Text to finish installation'
+```
+
+* Restart ST
+* Now you can install plugins by typing `package install` in the command panel (ctrl+shift+p) 
+
+## Must have plugins
+
 ### DocBlockr - PHP Documentation
 
 The DocBlockr plugin makes it very quick and easy to create doc blocks for your classes, attributes, and methods. It is available via Package Control.
