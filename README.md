@@ -72,3 +72,26 @@ To use it, open a new doc block as normal by typing `/**` and then pressing ENTE
 ### SublimeLinter - Real-Time Syntax Checking
 
 SublimeLinter uses the ‘php -l’ command behind the screens – PHP’s built-in linter, and is simply reporting back exactly what the PHP runtime thinks is wrong.
+
+### Nettuts+ Fetch - Fetch remote files easily
+
+Fetch latest version of remote files and zip packages.
+
+* Just type `fetch` in the command panel (ctrl+shift+p) and select "Fetch: Manage remote files" to add your remote files.
+* And now you can use the command Fetch. It will show you the list of files/packages to grab.
+
+When you fetch a single file, the content of this file will be copied there your cursior is.
+
+You can use this starting list of files [Nettuts+ Fetch base file] (https://github.com/devster/nettuts-fetch-base)
+
+### AdvancedNewFile - Lightning Fast Folder and File Creation
+
+Just hit `ctrl+alt+n` and see what happening
+
+### PlainTasks - Pretty Task Management
+
+See Nettuts video for more infos! -> https://tutsplus.com/lesson/pretty-task-management/
+
+### HTTP Requester
+
+Just copy an url and type `ctrl+alt+r`
