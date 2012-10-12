@@ -59,9 +59,23 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_p
 ```
 
 * Restart ST
-* Now you can install plugins by typing `package install` in the command panel (ctrl+shift+p) 
+* Now you can install plugins by typing `package install` in the command panel (ctrl+shift+p)
 
 ## Must have plugins
+
+### SublimeCodeIntel - Code completion
+
+Code intelligence plugin ported from Open Komodo Editor to Sublime Text 2.
+
+Supports all the languages Komodo Editor supports for Code Intelligence (CIX, CodeIntel2):
+
+    PHP, Python, RHTML, JavaScript, Smarty, Mason, Node.js, XBL, Tcl, HTML, HTML5, TemplateToolkit, XUL, Django, Perl, Ruby, Python3.
+
+Provides the following features:
+
+    Jump to Symbol Definition - Jump to the file and line of the definition of a symbol.
+    Imports autocomplete - Shows autocomplete with the available modules/symbols in real time.
+    Function Call tooltips - Displays information in the status bar about the working function.
 
 ### DocBlockr - PHP Documentation
 
