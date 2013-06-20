@@ -41,6 +41,15 @@ ST can remove trailing white space on save.
 "default_encoding": "UTF-8",
 ```
 
+### Respect a correct width
+
+Keep a short length of line to improve readability 
+
+```
+// Columns in which to display vertical rulers
+"rulers": [100],
+```
+
 ## How to install packages
 
 There are two ways to install ST plugins:
